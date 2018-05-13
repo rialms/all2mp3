@@ -1,0 +1,85 @@
+.body {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title {
+  color: #ff8a65;
+  font-weight: 400;
+  font-size: 24px;
+}
+.header-logos {
+  color: #ff8a65;
+  text-align: center;
+}
+.header-contact {
+  color: #ff8a65;
+  text-align: center;
+}
+.share-div {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.subtitle {
+  text-align: center;
+  color: #ff8a65;
+}
+.input-div {
+  margin: 20px;
+}
+.input-main {
+  width: calc(100% - 32px);
+  background-color: #1a1a1a;
+  border: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  height: 22px;
+  border-radius: 15px;
+  border-right: none;
+  font-size: 14px;
+  font-family: 'TypoPRO Source Sans Pro';
+  font-weight: 200;
+}
+.input-main.input-main-open {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.input-main:focus {
+  outline: none;
+}
+.input-main::-webkit-input-placeholder  {
+  transition: opacity 0.3s linear;
+}
+.input-main.fade::-webkit-input-placeholder  {
+  opacity: 0;
+}
+
+.requests-div {
+  margin: 20px;
+}
+
+.help-div {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+.news-div {
+  margin: 20px;
+}
